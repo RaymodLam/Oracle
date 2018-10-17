@@ -11,8 +11,9 @@ where d.department_id = e.department_id
 and d.department_name in ('IT'，'Sales')
 GROUP BY department_name;
 ```
-运行截图：
-![运行截图1](https://github.com/RaymodLam/Oracle/blob/master/test1/2.jpg?raw=true)
+运行截图1：
+![运行截图1](https://github.com/RaymodLam/Oracle/blob/master/test1/4.png?raw=true)
+
 查询2:
 ```SQL
 SELECT d.department_name，count(e.job_id)as "部门总人数"，
@@ -23,4 +24,4 @@ GROUP BY department_name
 HAVING d.department_name in ('IT'，'Sales');
 ```
 运行截图2：
-![运行截图1](https://github.com/RaymodLam/Oracle/blob/master/test1/1.jpg?raw=true)
+![运行截图1](https://github.com/RaymodLam/Oracle/blob/master/test1/3.png?raw=true)
