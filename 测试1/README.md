@@ -12,7 +12,10 @@ and d.department_name in ('IT'，'Sales')
 GROUP BY department_name;
 ```
 运行截图1：
-![运行截图1](https://github.com/RaymodLam/Oracle/blob/master/test1/4.png?raw=true)
+![](https://github.com/RaymodLam/Oracle/blob/master/test1/4.png?raw=true)
+
+优化截图1：
+![](https://github.com/RaymodLam/Oracle/blob/master/test1/2.jpg?raw=true)
 
 查询2:
 ```SQL
@@ -24,4 +27,7 @@ GROUP BY department_name
 HAVING d.department_name in ('IT'，'Sales');
 ```
 运行截图2：
-![运行截图1](https://github.com/RaymodLam/Oracle/blob/master/test1/3.png?raw=true)
+![](https://github.com/RaymodLam/Oracle/blob/master/test1/3.png?raw=true)
+
+优化截图2：
+![](https://github.com/RaymodLam/Oracle/blob/master/test1/1.jpg?raw=true)
