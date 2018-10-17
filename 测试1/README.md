@@ -12,4 +12,15 @@ and d.department_name in ('IT'，'Sales')
 GROUP BY department_name;
 ```
 运行截图：
+![运行截图1](https://github.com/RaymodLam/Oracle/blob/master/test1/2.jpg?raw=true)
+查询2:
+```SQL
+SELECT d.department_name，count(e.job_id)as "部门总人数"，
+avg(e.salary)as "平均工资"
+FROM hr.departments d，hr.employees e
+WHERE d.department_id = e.department_id
+GROUP BY department_name
+HAVING d.department_name in ('IT'，'Sales');
+```
+运行截图2：
 ![运行截图1](https://github.com/RaymodLam/Oracle/blob/master/test1/1.jpg?raw=true)
