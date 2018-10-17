@@ -12,4 +12,4 @@ and d.department_name in ('IT'，'Sales')
 GROUP BY department_name;
 ```
 运行截图：
-![运行截图1](E:\下载的文档\2.jpg "区块链")
+![运行截图1](https://github.com/RaymodLam/Oracle/blob/master/test1/1.jpg?raw=true)
