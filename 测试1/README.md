@@ -41,4 +41,4 @@ HAVING d.department_name in ('IT'，'Sales');
 
 运行截图：
 
-![](https://github.com/RaymodLam/Oracle/blob/master/test1/1.jpg?raw=true)
+![](https://github.com/RaymodLam/Oracle/blob/master/test1/5.png?raw=true)
