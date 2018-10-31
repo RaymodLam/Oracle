@@ -24,4 +24,4 @@ Oracle有一个开发者角色resource，可以创建表、过程、触发器等
 
 运行截图：
 
-![](https://github.com/RaymodLam/Oracle/blob/master/test1/2_1.png?raw=true)
+![](https://github.com/RaymodLam/Oracle/blob/master/test1/2_3.png?raw=true)
