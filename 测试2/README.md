@@ -8,12 +8,20 @@ Oracle有一个开发者角色resource，可以创建表、过程、触发器等
 
 ## 实验步骤
 
-- 第1步：以system登录到pdborcl，创建角色con_res_view和用户new_user，并授权和分配空间：
--运行截图：
--![]()
-- 第2步：新用户new_user连接到pdborcl，创建表mytable和视图myview，插入数据，最后将myview的SELECT对象权限授予hr用户。
--运行截图：
--![]()
-- 第3步：用户hr连接到pdborcl，查询new_user授予它的视图myview
--运行截图：
--![]()
+第1步：以system登录到pdborcl，创建角色con_res_view和用户new_user，并授权和分配空间：
+
+运行截图：
+
+![](https://github.com/RaymodLam/Oracle/blob/master/test1/2_6.png?raw=true)
+
+第2步：新用户new_user连接到pdborcl，创建表mytable和视图myview，插入数据，最后将myview的SELECT对象权限授予hr用户。
+
+运行截图：
+
+![](https://github.com/RaymodLam/Oracle/blob/master/test1/2_6.png?raw=true)
+
+第3步：用户hr连接到pdborcl，查询new_user授予它的视图myview
+
+运行截图：
+
+![](https://github.com/RaymodLam/Oracle/blob/master/test1/2_6.png?raw=true)
